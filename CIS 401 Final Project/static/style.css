@@ -1,0 +1,102 @@
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #272042;
+    color: #eaeaea;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Main container styling */
+.container {
+    background-color: #ffffff;
+    padding: 30px 40px 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    width: 85%;
+    max-width: 900px;
+    min-width: 400px;
+    margin: 0 auto;
+    height: auto;
+}
+
+/* Heading Styling */
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: rgba(254,100,0,255);
+    margin-bottom: 20px;
+}
+
+/* Send an Email Heading Styling */
+h2 {
+    font-size: 1.8rem;
+    color: rgba(254,100,0,255);
+    margin-top: 20px;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Input field and textarea styling */
+input, textarea {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    padding: 12px;
+    width: 100%;
+    border: 1px solid #3a3a6d;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect for inputs and text areas */
+input:focus, textarea:focus {
+    background-color: #ffffff;
+    border-color: rgba(254,100,0,255);
+    outline: none;
+}
+
+/* Button styling */
+button {
+    background-color: #272042;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    align-self: center;
+}
+
+/* Hover effect for button */
+button:hover {
+    background-color: rgba(254,100,0,255);
+    color: #fff;
+    border-radius: 8px;
+    transform: scale(1.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #f8f9fa;
+    font-size: 1.2rem;
+}
+
+footer p {
+    margin: 10px 0;
+}
